@@ -1,0 +1,60 @@
+body{
+    font-family: 'Orbitron', sans-serif;
+    margin: 0px;
+}
+
+h1{
+    font-size:30px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.name-highlight{
+    color:coral;
+}
+
+.name-highlight:hover{
+    font-size: 200%;
+}
+
+.first-left{
+    width: 40%;
+    padding-top: 10px;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.first-left img{
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.top-bg{
+    background-image: url("images/top-banner.png") ;
+    background-repeat: no-repeat;
+}
+
+section{
+
+    height: 500px;
+}
+
+.no{
+    margin-top: 50px;
+}
+
+.link-button:hover{
+    background-image: linear-gradient(45deg, rgb(49, 179, 92), tomato) ;
+}
+
+.link-button{
+    margin-top: 50px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato) ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+
+}
